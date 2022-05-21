@@ -5,3 +5,30 @@
     padding: 0;
     border: none;
 }
+
+body{
+    font-family: Merriweather, sans-serif;
+    font-weight: 300;
+    }
+
+    /* Heading and logo */
+
+h1 {
+    font-family: Merriweather, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+    /* nav links */
+
+#menu {
+        font-size: 100%;
+        letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin: 30px;
+}

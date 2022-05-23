@@ -9,7 +9,6 @@
 body{
     font-family: Merriweather, sans-serif;
     font-weight: 300;
-    background-color: #4B7DEE;
     }
 
     /* Heading and logo */
@@ -27,11 +26,30 @@ h1 {
 #menu {
         font-size: 100%;
         letter-spacing: 4px;
+        padding: 20px;
         text-align: center;
+        background-color: #D0D6DA
 }
 
 #menu li {
     display: inline-block;
     margin: 30px;
    
+}
+
+/* Footer Content */
+
+.socials {
+    background-color: #D0D6DA;
+    text-align: center;
+}
+.socials > li {
+    display: inline;
+}
+
+.socials i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }

@@ -9,11 +9,13 @@
 body{
     font-family: Merriweather, sans-serif;
     font-weight: 300;
+    background-color: #4B7DEE;
     }
 
     /* Heading and logo */
 
 h1 {
+    margin-top: 50px;
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -25,10 +27,11 @@ h1 {
 #menu {
         font-size: 100%;
         letter-spacing: 4px;
+        text-align: center;
 }
 
 #menu li {
-    float: right;
-    list-style-type: none;
+    display: inline-block;
     margin: 30px;
+   
 }

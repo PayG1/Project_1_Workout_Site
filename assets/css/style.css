@@ -92,9 +92,28 @@ animation-fill-mode: forwards ;
     position: absolute;
 
 }
+/*Home page content */
+#home-page {
+    margin: 0 10px 0 50px;
+}
+
+#home-page  li{
+    margin: 0 100px 0 70px;
+}
+
+.home-body {
+    font-family: Merriweather, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.space {  
+    
+    
+}
 /* Link page content */
 #pages {
-    
+
     background-image: url("#");
     background-repeat: no-repeat;
     background-position: center;
@@ -102,6 +121,12 @@ animation-fill-mode: forwards ;
     width: 100%;
     overflow: hidden;
     display: inline-block;
+}
+
+.letters {
+    color: white;
+    text-align: center;
+    padding: 120px 120px;
 }
 #pages div {
     background-color: rgba(0, 0, 0, .6);
@@ -118,6 +143,7 @@ animation-fill-mode: forwards ;
     text-align: center;
     padding: 120px 120px;
 }
+
 /* Footer Content */
 
 .socials {

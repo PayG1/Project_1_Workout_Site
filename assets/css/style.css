@@ -34,9 +34,90 @@ h1 {
 #menu li {
     display: inline-block;
     margin: 30px;
-   
 }
 
+/*  Banner image and text */
+
+#banner-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text,  #cover-text h2 {
+    color: #fff; 
+}
+
+#banner-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/banner.jpg') no-repeat center center;
+
+    /* animates the ilusion */
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards ; 
+}
+
+/* illusion immage */
+
+@keyframes hero-zoom   {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 130%;    
+    font-family: Merriweather, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    left: 50px;
+
+    position: absolute;
+
+}
+/* Link page content */
+#pages {
+    
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+}
+#pages div {
+    background-color: rgba(0, 0, 0, .6);
+    width: 33.2%;
+    height: 300px;
+    display: inline-block;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    box-sizing: border-box;
+}
+
+#pages div h2{
+    color: #fafafa;
+    text-align: center;
+    padding: 120px 120px;
+}
 /* Footer Content */
 
 .socials {
@@ -50,6 +131,6 @@ h1 {
 .socials i {
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 1%;
     color: #3a3a3a;
 }

@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 
 body{
@@ -93,11 +94,11 @@ animation-fill-mode: forwards ;
 
 }
 /*Home page content */
-#home-page {
+.home-page {
     margin: 0 10px 0 50px;
 }
 
-#home-page  li{
+.home-page  li{
     margin: 0 100px 0 70px;
 }
 
@@ -107,9 +108,17 @@ animation-fill-mode: forwards ;
     text-align: center;
     margin-bottom: 20px;
 }
-.space {  
-    
-    
+
+/* chest page content */
+
+.chest-main  h2{
+    text-align: center;
+}
+
+.chest-main  div {
+    padding: 30px 0 20px 0;
+    display: flex;
+    justify-content: center;
 }
 /* Link page content */
 #pages {

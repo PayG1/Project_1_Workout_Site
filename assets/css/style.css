@@ -3,14 +3,13 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
-    
+    border: none;  
 }
 
 body{
     font-family: Merriweather, sans-serif;
     font-weight: 300;
-    }
+}
 
     /* Heading and logo */
 
@@ -20,8 +19,15 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 4px;
     text-align: center;
+    text-decoration: none;
+
 }
 
+#logo   {
+    text-align: center;
+    font-size: 280%;
+    margin-left: 30px;
+}
     /* nav links */
 
 #menu {
@@ -29,15 +35,26 @@ h1 {
         letter-spacing: 4px;
         padding: 20px;
         text-align: center;
-        background-color: #D0D6DA
+        
 }
+
 
 #menu li {
     display: inline-block;
     margin: 30px;
 }
 
-/*  Banner image and text */
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a ;
+}
+
+
+    /*  Banner image and text */
 
 #banner-outer {
     height: 600px;
@@ -62,7 +79,7 @@ animation-duration: 5s;
 animation-fill-mode: forwards ; 
 }
 
-/* illusion immage */
+    /* illusion immage */
 
 @keyframes hero-zoom   {
     from{
@@ -93,7 +110,7 @@ animation-fill-mode: forwards ;
     position: absolute;
 
 }
-/*Home page content */
+    /*Home page content */
 .home-page {
     margin: 0 10px 0 50px;
 }
@@ -109,7 +126,7 @@ animation-fill-mode: forwards ;
     margin-bottom: 20px;
 }
 
-/* chest page content */
+    /* Main page content */
 
 .chest-main  h2{
     text-align: center;
@@ -120,16 +137,19 @@ animation-fill-mode: forwards ;
     display: flex;
     justify-content: center;
 }
-/* Link page content */
+    /* Link page content */
 #pages {
-
-    background-image: url("#");
+    /*background-image: url("#");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     width: 100%;
     overflow: hidden;
     display: inline-block;
+}
+
+#pages a:hover{
+    border-bottom: 1px solid #3a3a3a ;
 }
 
 .letters {
@@ -153,7 +173,7 @@ animation-fill-mode: forwards ;
     padding: 120px 120px;
 }
 
-/* Footer Content */
+    /* Footer Content */
 
 .socials {
     background-color: #D0D6DA;
@@ -168,4 +188,28 @@ animation-fill-mode: forwards ;
     margin: 1%;
     padding: 1%;
     color: #3a3a3a;
+}
+
+/* media queiris  1200px*/
+
+@media screen and (max-width: 1200px ) {
+
+    #pages > div{
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+        text-align: left;
+        margin-bottom: 4px;
+   }
+}
+
+
+/* for medium size screens 900px*/
+
+@media screen and (max-width: 950px) {
+
+    #cover-text {
+        left: 0;
+}
 }

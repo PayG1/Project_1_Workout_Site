@@ -6,5 +6,5 @@ This site is to help and provide information to beginners who want to learn what
 
  -Navigation
   -Centered navigation bar on the beggining of the website that can be hovered over for ease of access
-  ![](assets/images/top_nav.png)
+  ![](assets/images/top_nav.PNG)
   -At the bottom of the site there are also navigation boxes that are easy to see and takes the user to the disired page

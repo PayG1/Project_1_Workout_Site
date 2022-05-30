@@ -60,18 +60,18 @@ h1 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
 #cover-text,  #cover-text h2 {
-    color: #fff; 
+    color:#fafafa; 
 }
 
 #banner-image {
     height: 600px;
     width: 100%;
     background: url('../images/banner.jpg') no-repeat center center;
+    
 
     /* animates the ilusion */
 animation-name: hero-zoom;
@@ -95,6 +95,7 @@ animation-fill-mode: forwards ;
     font-family: Merriweather, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    
 
     width: 300px;
     height: 200px;
@@ -123,16 +124,23 @@ animation-fill-mode: forwards ;
     font-family: Merriweather, sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 40px 0 20px 0;
 }
 
+.spacing  li{
+    margin: 0 0 15px 0;
+}
+.video-size {
+    height: 50%;
+    width: 50%;
+}
     /* Main page content */
 
-.chest-main  h2{
+.main  h2{
     text-align: center;
 }
 
-.chest-main  div {
+.main  div {
     padding: 30px 0 20px 0;
     display: flex;
     justify-content: center;

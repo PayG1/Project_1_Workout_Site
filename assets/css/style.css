@@ -147,10 +147,6 @@ animation-fill-mode: forwards ;
 }
     /* Link page content */
 #pages {
-    /*background-image: url("#");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
     width: 100%;
     overflow: hidden;
     display: inline-block;
@@ -167,7 +163,7 @@ animation-fill-mode: forwards ;
 }
 #pages div {
     background-color: rgba(0, 0, 0, .6);
-    width: 33.2%;
+    width: 33%;
     height: 300px;
     display: inline-block;
     border-left: 5px solid white;

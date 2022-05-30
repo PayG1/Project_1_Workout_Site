@@ -19,23 +19,30 @@ This site is to help and provide information to beginners who want to learn what
   
   - At the bottom, you have the social links that will open in a separate tab 
   
-   ![](assets/images/socials.PNG)
+  ![](assets/images/socials.PNG)
    
 ## Testing
   - I confirmed that the website runs in Chrome, Firefox, Safari, and Opera
+  
   - I have tested that the website is responsive and adjusts to different screen sizes
+  
   - All grammatical errors have been corrected.
 
  -Bugs
-  -Fixed a bug where the site did not load the videos because it couldn't find them: It was because I used a forward slash before specifying the file location. Removing it fixed the issue.
-  -Fixed an issue where the correct spacing wasn't applied to the paragraph: It was because I forgot to close the tags. Closing them fixed the issue
-  -fixed a bug where the CSS wasn't targetting the correct class: It was because there was a space in the class declaration. Putting a dash to separate the words fixed the issue.
+  - Fixed a bug where the site did not load the videos because it couldn't find them: It was because I used a forward slash before specifying the file location. Removing it fixed the issue.
+  
+  - Fixed an issue where the correct spacing wasn't applied to the paragraph: It was because I forgot to close the tags. Closing them fixed the issue
+  
+  - Fixed a bug where the CSS wasn't targetting the correct class: It was because there was a space in the class declaration. Putting a dash to separate the words fixed the issue.
 
  -Validator Testing
   - HTML: No errors were found when put through W3C Validator
   - CSS: No errors were found when put through W3C Validator
   - Accessibility: High score in accessibility given by lighthouse in the dev tools.
+  
   ![](assets/images/lighthouse_performance.PNG)
+  
+  
  -Unfixed bugs
   - The navigation on the bottom of the page, is not centered correctly.
   

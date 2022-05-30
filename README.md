@@ -45,6 +45,7 @@ This site is to help and provide information to beginners who want to learn what
   
  -Unfixed bugs
   - The navigation on the bottom of the page, is not centered correctly.
+  - When zooming out too much the text on the banner gets displaced too.
   
 ## Deployment
  -The site was deployed to GitHub pages
